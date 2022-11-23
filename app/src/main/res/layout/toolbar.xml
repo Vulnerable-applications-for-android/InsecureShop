@@ -10,9 +10,9 @@
         android:background="@color/colorPrimary"
         android:contentInsetStart="0dp"
         android:contentInsetLeft="0dp"
-        android:visibility="gone"
         android:contentInsetEnd="0dp"
         android:contentInsetRight="0dp"
+        android:visibility="gone"
         app:contentInsetEnd="0dp"
         app:contentInsetLeft="0dp"
         app:contentInsetRight="0dp"
@@ -30,6 +30,9 @@
                 android:layout_height="0dp"
                 android:textColor="@android:color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="@string/app_name" />
 
